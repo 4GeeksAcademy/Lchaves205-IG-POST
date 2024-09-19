@@ -1,0 +1,91 @@
+body{background: #BDBDBD;
+    margin: 0;
+}
+div{
+    box-sizing:border-box;
+}
+header{
+    background: white;
+    padding: 10px;
+    margin:auto;
+}
+header h1{
+  margin:0;
+  padding: 10px 0px 10px 1110px;
+}
+div.post{
+    background: white;
+    margin-top: 10px;
+}
+div.post img{
+    width:100%;
+}
+div.post h2{
+    padding: 10px;
+    margin: 0;
+
+}
+div.post p{
+    padding: 10px;
+    margin:0;
+}
+div.container{
+    width:500px;
+    margin:auto;
+}
+div.post .postheader div:first-child{
+    display:inline-block;
+    width:80%;
+}
+div.post .postheader div:last-child{
+    display:inline-block;
+    width: 20px;
+    padding: 10px;
+    text-align: right;
+}
+div.html5{
+    font-size: small;
+
+}
+
+.icons {
+    display: flex;
+    justify-content:flex-start; /* Not sure about this one */
+    
+}
+
+.icons .heart, 
+.icons .comment, 
+.icons .send {
+    margin: 0 3.5px; /* space icons*/
+}
+
+.bookmark {
+    margin-left: auto; /* bookmark moved - right */
+    margin-right: 10px;
+}
+
+div.postheader {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px;
+}
+
+div.icon5 {
+    display: flex;
+    align-items: center;
+}
+
+div.ellipsis {
+    margin-left: auto; /* moved ellipsis */
+}
+
+div.ellipsis i {
+    font-size: 2rem;
+}
+
+.icon5 i {
+    font-size: 2rem; 
+    margin-left: 15px;
+}
